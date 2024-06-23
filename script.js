@@ -46,7 +46,7 @@ const subtractBy3=(num)=>{
 const divideBy2=(num)=>{
 	return new Promise((res,rej)=>{
 		setTimeout(()=>{
-			res(Math.floor(num/2))
+			res(num/2)
 		},1000)
 	})
 }
